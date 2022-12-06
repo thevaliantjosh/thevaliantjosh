@@ -1,0 +1,44 @@
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+}
+
+.box {
+    border: 4px solid black;
+    margin: 10px;
+    font-size: 36px;
+    text-align: center;
+    width: 115px;
+    height: 115px;
+    line-height: 115px;
+    background-color: #efdec8;
+    color: #3f3f6e;
+
+}
+
+.flex-start {
+    display: flex;
+    /*Default Value is Stretch which makes all the items the same size along the cross axis*/
+    align-items: flex-start;
+}
+
+.box-multi-line {
+    border: 4px solid black;
+    margin: 10px;
+    font-size: 36px;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.blue-box {
+    background-color: #090973;
+    color: white;
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
