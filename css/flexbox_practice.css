@@ -20,7 +20,12 @@
 .flex-start {
     display: flex;
     /*Default Value is Stretch which makes all the items the same size along the cross axis*/
-    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#flex-end {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .box-multi-line {
@@ -32,6 +37,11 @@
     vertical-align: middle;
 }
 
+#space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 .blue-box {
     background-color: #090973;
     color: white;
@@ -41,4 +51,59 @@
     width: 80px;
     height: 80px;
     line-height: 80px;
+    color: #c00909
 }
+
+#space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.red-box {
+    background-color: #c00909;
+    color: #090973;
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+#flex-grow {
+    flex-grow;
+}
+
+#space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.black-box {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.box-grow {
+    background-color: #f2f2f2;
+    border: 2px solid black;
+    font-size: 24px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+
+}
+
+
